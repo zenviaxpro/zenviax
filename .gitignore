@@ -49,3 +49,29 @@ dist-ssr
 *.bak
 *.tmp
 *~
+
+# Security
+*.pem
+*.key
+*.cert
+*.crt
+*.csr
+*.p12
+*.pfx
+*.keystore
+
+# Build
+.wrangler
+.cloudflare
+.vercel
+.netlify
+
+# Debug files
+*.debug
+debug.log
+npm-debug.log*
+
+# Local development
+*.dev
+*.development
+*.local
